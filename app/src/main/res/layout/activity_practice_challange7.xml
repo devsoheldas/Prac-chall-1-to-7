@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice_Challange_7"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <!--....vertical  LinearLayout....-->
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="5dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        >
+
+                        <ImageView
+                            android:id="@+id/tamim"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/tamim"
+                            android:scaleType="fitXY"
+                            />
+                        <ImageView
+                            android:id="@+id/sakib"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/sakib"
+                            android:scaleType="fitXY"
+                            />
+                        <ImageView
+                            android:id="@+id/liton"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/litton"
+                            android:scaleType="fitXY"
+                            />
+
+                        <ImageView
+                            android:id="@+id/soumma"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/soumma" />
+                        <ImageView
+                            android:id="@+id/sohel"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/tamim" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </ScrollView>
+
+            <!--....vertical  LinearLayout....-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <!--.......Tamim Iqbal ......-->
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/Tamim_L"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="visible"
+                            >
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:src="@drawable/tamim"
+                                android:scaleType="fitXY"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Tamim Iqbal Khan "
+                                android:textSize="30sp"
+                                android:layout_marginLeft="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Left handed opeaning batter "
+                                android:textSize="18sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#136521"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="normal"
+                                android:text="Tamim was born to Iqbal Khan and Nusrat Iqbal Khan, in the port
+                    city of Chittagong.[11] His paternal Khan family is a prestigious family in the
+                     city, his ancestors arrived to Chittagong from Bihar.[11][12][13] His maternal
+                     family belongs to Salempur in Uttar Pradesh.[14][15] Tamim is the brother of
+                     Nafees Iqbal and the nephew of Akram Khan, who both played Test cricket for Bangladesh.
+                     [11]Tamim's father, Iqbal, used to host small cricket tournaments to help his sons train and get better
+                      in cricket.[12] His brother Nafees, a former national team cricketer, in an interview said,
+                       Tamim was the more talented one.
+                     When Tamim was 12 or 13, he hit 148 as the team chased 150"
+                                android:textSize="15sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#0E6671"
+                                android:gravity="left"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </ScrollView>
+                    <!--.......Tamim Iqbal ......-->
+
+                    <!--...........Sakib ......-->
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardCornerRadius="5dp"
+
+                            >
+                            <LinearLayout
+                                android:id="@+id/Sakib_L"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone"
+                                >
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="300dp"
+                                    android:src="@drawable/sakib"
+                                    android:scaleType="fitXY"
+                                    />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:text="Sakib Al Hasasn "
+                                    android:textSize="30sp"
+                                    android:layout_marginLeft="5dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="Left handed  all rounder "
+                                    android:textColor="#136521"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="normal"
+                                    android:text="Since 2004, Shakib has played for Khulna in the National Cricket League.
+
+In 2004–05 season of the tournament, Shakib, since his debut in May 2004 at the age of 17, played just 3 matches.[b] He scored 129 runs at an average of 25.80 with a high score of 54 and took 16 wickets at an average of 27.87 with a best bowling figure of 6/79 in an innings and 9/114 in a match.[32]
+
+In the 2006–07 season, he played just 2[c] matches scoring 51 runs at an average 17.00 with a high score of 23. He bowled only in 1 innings where he bowled 4 overs of 9 runs with 1 maiden over without any wicket.[33]
+
+Shakib has played 14 matches scoring 933 runs at an average of 40.43 with three 100s and a high score of 129.[34] He also got 31 wickets at an average of 33.16 with 1 5-wicket haul.[35]"
+                                    android:textSize="15sp"
+                                    android:layout_marginLeft="5dp"
+                                    android:textColor="#0E6671"
+                                    android:gravity="left"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </ScrollView>
+                    <!--...........Sakib ......-->
+
+                    <!--.......Liton Das ......-->
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+                        <LinearLayout
+                            android:id="@+id/Liton_L"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            >
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:src="@drawable/litton"
+                                android:scaleType="fitXY"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Liton Das "
+                                android:textSize="30sp"
+                                android:layout_marginLeft="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Left handed opeaning batter "
+                                android:textSize="18sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#136521"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="normal"
+                                android:text="Tamim was born to Iqbal Khan and Nusrat Iqbal Khan, in the port
+                    city of Chittagong.[11] His paternal Khan family is a prestigious family in the
+                     city, his ancestors arrived to Chittagong from Bihar.[11][12][13] His maternal
+                     family belongs to Salempur in Uttar Pradesh.[14][15] Tamim is the brother of
+                     Nafees Iqbal and the nephew of Akram Khan, who both played Test cricket for Bangladesh.
+                     [11]Tamim's father, Iqbal, used to host small cricket tournaments to help his sons train and get better
+                      in cricket.[12] His brother Nafees, a former national team cricketer, in an interview said,
+                       Tamim was the more talented one.
+                     When Tamim was 12 or 13, he hit 148 as the team chased 150"
+                                android:textSize="15sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#0E6671"
+                                android:gravity="left"
+                                />
+
+                        </LinearLayout>
+
+
+                    </ScrollView>
+                    <!--.......Liton Das ......-->
+
+                    <!--........Soumma  Das ......-->
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/Soumma_L"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            >
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:src="@drawable/soumma"
+                                android:scaleType="fitXY"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Soumma Sarker "
+                                android:textSize="30sp"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="Right handed  batter "
+                                android:textColor="#136521"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="normal"
+                                android:text="Since 2004, Shakib has played for Khulna in the National Cricket League.
+
+In 2004–05 season of the tournament, Shakib, since his debut in May 2004 at the age of 17, played just 3 matches.[b] He scored 129 runs at an average of 25.80 with a high score of 54 and took 16 wickets at an average of 27.87 with a best bowling figure of 6/79 in an innings and 9/114 in a match.[32]
+
+In the 2006–07 season, he played just 2[c] matches scoring 51 runs at an average 17.00 with a high score of 23. He bowled only in 1 innings where he bowled 4 overs of 9 runs with 1 maiden over without any wicket.[33]
+
+Shakib has played 14 matches scoring 933 runs at an average of 40.43 with three 100s and a high score of 129.[34] He also got 31 wickets at an average of 33.16 with 1 5-wicket haul.[35]"
+                                android:textSize="15sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#0E6671"
+                                android:gravity="left"
+                                />
+
+
+
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                    <!--........Soumma  Das ......-->
+
+                    <!--........Sohel  Das ......-->
+                    <ScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/Sohel_L"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            >
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="300dp"
+                                android:src="@drawable/sohel"
+                                android:scaleType="fitXY"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Sohel Das "
+                                android:textSize="30sp"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="Softwere Developer "
+                                android:textColor="#136521"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="normal"
+                                android:text="Since 2004, Shakib has played for Khulna in the National Cricket League.
+
+In 2004–05 season of the tournament, Shakib, since his debut in May 2004 at the age of 17, played just 3 matches.[b] He scored 129 runs at an average of 25.80 with a high score of 54 and took 16 wickets at an average of 27.87 with a best bowling figure of 6/79 in an innings and 9/114 in a match.[32]
+
+In the 2006–07 season, he played just 2[c] matches scoring 51 runs at an average 17.00 with a high score of 23. He bowled only in 1 innings where he bowled 4 overs of 9 runs with 1 maiden over without any wicket.[33]
+
+Shakib has played 14 matches scoring 933 runs at an average of 40.43 with three 100s and a high score of 129.[34] He also got 31 wickets at an average of 33.16 with 1 5-wicket haul.[35] "
+                                android:textSize="15sp"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="#0E6671"
+                                android:gravity="left"
+                                />
+
+
+
+
+                        </LinearLayout>
+
+                    </ScrollView>
+                    <!--........Sohel  Das ......-->
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

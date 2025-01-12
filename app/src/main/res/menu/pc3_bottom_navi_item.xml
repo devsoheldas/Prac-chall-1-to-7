@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Home"
+        android:icon="@drawable/home1"
+        />
+
+    <item
+        android:id="@+id/my_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="My Trip"
+        android:icon="@drawable/index"
+
+        />
+
+
+    <item
+        android:id="@+id/aleart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Aleart"
+        android:icon="@drawable/baseline_add_alert_24"
+        />
+
+    <item
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Me"
+        android:icon="@drawable/baseline_account_circle_24"
+        />
+</menu>

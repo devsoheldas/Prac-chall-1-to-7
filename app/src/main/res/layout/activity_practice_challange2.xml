@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice_Challange_2"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/nagad_bg"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu_icon"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bell_icon"
+            android:scaleType="fitXY"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="নগদ"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ডাক বিভাগের ডিজিটাল লেনদেন "
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/two_color_curved"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/nagad_icon"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ব্যালেন্স জানতে ট্যাপ করুন "
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/all_Items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@+id/bottom_nav_menu"
+        android:layout_margin="3dp"
+        android:padding="2dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Services"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <!--First_Items-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/send_money"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send Money"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/cash_out"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cash Out"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/mobile_recharge"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile Recha"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/add_money"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Money"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <!--First_Items-->
+
+        <!--Second_Items-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/trans_money"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transfer Mone"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/insurance"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insurance"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <!--Second_Items-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payments"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <!--Third_Items-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/marchant_pay"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marchent Pay"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bill_pay"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bill Pay"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/emi_payment"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMI Payment"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/donation"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Donation"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <!--Third_Items-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <!--Forth_Items-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/contact_us" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/limit_charge"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Limit and Charge"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/surokka"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surokkah"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                >
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <!--Forth_Items-->
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_nav_menu"
+        app:menu="@menu/menu_navi_item"
+        android:layout_alignParentBottom="true"
+        android:pointerIcon="context_menu"
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+
+</RelativeLayout>
