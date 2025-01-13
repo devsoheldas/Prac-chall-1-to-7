@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Seasson1AllClassAndPractice"
         tools:targetApi="31">
         <activity
+            android:name=".SPI"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
